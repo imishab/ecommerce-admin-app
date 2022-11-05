@@ -1,5 +1,5 @@
 const baseUrl =
-  location.hostname === "localhost"
+ location && location.hostname === "localhost"
     ? "http://localhost:2000"
     : "https://forskor-rest-server.herokuapp.com";
 
